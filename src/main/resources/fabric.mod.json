@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "goldensmokes",
+  "version": "${version}",
+  "name": "Marlboro Gold Totem",
+  "description": "Der Totem of Undying wird zur goldenen Zigarettenschachtel. Beim Aktivieren klappt der Deckel auf und die Zigaretten purzeln heraus.",
+  "authors": ["Du"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/goldensmokes/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.goldensmokes.GoldenSmokesClient"]
+  },
+  "mixins": ["goldensmokes.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
